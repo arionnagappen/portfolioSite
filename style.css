@@ -1,6 +1,64 @@
+/* VARIABLES */
+:root {
+    --black: #000000;
+    --deepBlue: #4E4FEB;
+    --lightBlue: #068FFF;
+    --grey: #B9B4C7;
+}
+
+/* GLOBAL STYLING */
+html {
+    font-size: 16px;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
+
+/* 
+===============
+NAVIGATION MENU
+===============
+*/
+
+header {
+    padding: 1rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-btn {
+    padding: 1rem;
+    color: var(--black);
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    text-align: center;
+
+    width: 70%;
+
+    font-size: 1.2rem;
+
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+
+    border-bottom: 1px solid var(--grey);
+
+    color: var(--black);
 }
