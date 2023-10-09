@@ -45,6 +45,10 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    height: 0px;
+    overflow: hidden;
+    transition: 0.3s;
 }
 
 .nav-item {
@@ -61,4 +65,8 @@ header {
     border-bottom: 1px solid var(--grey);
 
     color: var(--black);
+}
+
+.show-items {
+    height: 288px;
 }
