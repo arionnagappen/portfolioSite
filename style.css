@@ -144,9 +144,8 @@ ABOUT
 }
 
 .mypic-container {
-    width: 60vw;
+    width: 50vw;
     margin: 0 auto;
-
 }
 
 .mypic-container img {
@@ -154,6 +153,7 @@ ABOUT
     border-radius: var(--borderRadius);
     box-shadow: 0 0 3px;
 }
+
 
 /* 
 ===============
@@ -180,10 +180,6 @@ SKILLS
 
 }
 
-.skills-list {
-
-}
-
 .skill {
     padding: 0.5rem 0;
 }
@@ -203,7 +199,7 @@ PROJECTS
 }
 
 .project {
-    width: 50vw;
+    width: 80%;
     margin: 2rem auto;
 
     display: grid;
@@ -231,6 +227,12 @@ CONTACT
     align-items: center;
 
     margin-top: 2rem;
+}
+
+@media screen and (max-width:300px) {
+    .contact-container {
+        flex-direction: column;
+    }
 }
 
 /* 
