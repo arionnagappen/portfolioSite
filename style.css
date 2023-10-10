@@ -19,6 +19,10 @@ html {
     color: black;
 }
 
+body {
+    margin: 0 auto;
+}
+
 /* 
 ===============
 NAVIGATION MENU
@@ -26,13 +30,15 @@ NAVIGATION MENU
 */
 
 header {
-    padding: 1rem;
+    width: 90vw;
+    margin: 0 auto;
 }
 
 .btn-container {
     display: flex;
     justify-content: flex-end;
     padding: 1.2em;
+    margin: 0 auto;
 }
 
 .menu-btn {
@@ -113,3 +119,35 @@ header {
 ABOUT
 ===============
 */
+
+.banner {
+    text-align: center;
+    margin-top: 0.6rem;
+}
+
+.about-me {
+    padding: 0 1rem;
+}
+
+.about-me h2 {
+    font-size: 2rem;
+}
+
+.about-me p {
+    padding: 1.5rem;
+    line-height: 1.5;
+}
+
+.mypic-container {
+    width: 60vw;
+    margin: 0 auto;
+
+}
+
+.mypic-container img {
+    width: 100%;
+    border-radius: 2em;
+    box-shadow: 0 0 3px;
+}
+
+
