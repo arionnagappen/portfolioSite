@@ -16,6 +16,7 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 
 /* 
@@ -31,6 +32,7 @@ header {
 .btn-container {
     display: flex;
     justify-content: flex-end;
+    padding: 1.2em;
 }
 
 .menu-btn {
@@ -64,8 +66,6 @@ header {
     margin-bottom: 1rem;
 
     border-bottom: 1px solid var(--grey);
-
-    color: var(--black);
 }
 
 .show-items {
