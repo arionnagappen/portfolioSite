@@ -4,6 +4,7 @@
     --deepBlue: #4E4FEB;
     --lightBlue: #068FFF;
     --grey: #B9B4C7;
+    --borderRadius: 2em;
 }
 
 /* GLOBAL STYLING */
@@ -21,6 +22,14 @@ html {
 
 body {
     margin: 0 auto;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
 }
 
 /* 
@@ -129,10 +138,6 @@ ABOUT
     padding: 0 1rem;
 }
 
-.about-me h2 {
-    font-size: 2rem;
-}
-
 .about-me p {
     padding: 1.5rem;
     line-height: 1.5;
@@ -146,8 +151,98 @@ ABOUT
 
 .mypic-container img {
     width: 100%;
-    border-radius: 2em;
+    border-radius: var(--borderRadius);
     box-shadow: 0 0 3px;
 }
 
+/* 
+===============
+SKILLS
+===============
+*/
+
+.skills {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.skills-container {
+    display: grid;
+}
+
+.skills-content {
+    box-shadow: 0 0 3px;
+    margin: 1rem auto;
+    border-radius: var(--borderRadius);
+    padding: 0.85rem;
+
+    width: 50%;
+
+}
+
+.skills-list {
+
+}
+
+.skill {
+    padding: 0.5rem 0;
+}
+
+/* 
+===============
+PROJECTS
+===============
+*/
+.projects {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.projects-container {
+ 
+}
+
+.project {
+    width: 50vw;
+    margin: 2rem auto;
+
+    display: grid;
+}
+
+.project img {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+/* 
+===============
+CONTACT
+===============
+*/
+
+.contact {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 2rem;
+}
+
+/* 
+===============
+FOOTER
+===============
+*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px
+}
 
