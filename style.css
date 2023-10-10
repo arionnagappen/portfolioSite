@@ -71,3 +71,45 @@ header {
 .show-items {
     height: 288px;
 }
+
+@media screen and (min-width:700px) {
+    header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 1rem 1.5rem; 
+    }
+    
+    .btn-container {
+        display: none
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    
+        height: auto;
+    }
+
+    .nav-item {
+        text-decoration: none;
+        text-align: center;
+    
+        width: 70%;
+    
+        font-size: 1.2rem;
+    
+        padding: 1rem;
+        margin-bottom: 0;
+    
+        border-bottom: none;
+    }
+}
+
+/* 
+===============
+ABOUT
+===============
+*/
