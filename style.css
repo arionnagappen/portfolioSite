@@ -4,7 +4,10 @@
     --deepBlue: #4E4FEB;
     --lightBlue: #068FFF;
     --grey: #B9B4C7;
+
     --borderRadius: 2em;
+
+    --sectionTopMargin: 1rem;
 }
 
 /* GLOBAL STYLING */
@@ -25,10 +28,6 @@ body {
     margin: 0 auto;
 }
 
-h2 {
-    font-size: 2rem;
-}
-
 ul {
     list-style: none;
 }
@@ -41,7 +40,7 @@ NAVIGATION MENU
 .btn-container {
     display: flex;
     justify-content: flex-end;
-    padding: 1.2em;
+    padding: 1em 0;
     margin: 0 auto;
 }
 
@@ -58,6 +57,7 @@ NAVIGATION MENU
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     height: 0px;
     overflow: hidden;
@@ -70,9 +70,9 @@ NAVIGATION MENU
 
     width: 70%;
 
-    font-size: 1.2rem;
+    font-size: 1rem;
 
-    padding: 1rem 0;
+    padding: 0.85rem 0;
     margin-bottom: 1rem;
 
     border-bottom: 1px solid var(--grey);
@@ -110,6 +110,77 @@ NAVIGATION MENU
         border-bottom: none
     }
 }
+
+/* 
+===============
+HERO
+===============
+*/
+
+.hero {
+    padding: 0.6rem;
+}
+
+.hero-heading {
+    margin-bottom: 0.5em;
+}
+
+.hero-text {
+    margin-bottom: 1.5em;
+}
+
+.hero-text p {
+    line-height: 1.5;
+}
+
+.hero-pic {
+   max-width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.hero-pic img {
+    width: 65%;
+    border-radius: 5%;
+} 
+
+/* 1145px */
+
+@media only screen and (min-width:1145px) {
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5rem;
+        width: 70vw;
+        margin: var(--sectionTopMargin) auto;
+    }
+
+    .hero-heading {
+        margin-bottom: 0.5em;
+    }
+    
+    .hero-text {
+        margin-bottom: 1.5em;
+    }
+    
+    .hero-text p {
+        line-height: 1.5;
+    }
+
+    .hero-pic {
+        justify-content: center;
+    }
+
+    .hero-pic img {
+        width: 80%;
+    }
+}
+
+/* 
+===============
+SKILLS
+===============
+*/
 
 
 
