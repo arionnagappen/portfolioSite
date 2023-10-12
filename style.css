@@ -256,10 +256,12 @@ PROJECTS
     }
 
     .projects-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3, 0.5fr);
+        column-gap: 5rem;
+        grid-template-rows: 1fr;
+        width: fit-content;
     }
 }
 
@@ -280,12 +282,35 @@ CONTACT ME
     justify-content: space-around;
 }
 
+.contact-channel h4 {
+    text-align: center;
+}
+
 @media only screen and (min-width:1145px) {
     .contact {
         width: 70vw;
         margin: var(--sectionTopMargin) auto;
     }
+
+    .contact-channel-container {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3, 0.5fr);
+        column-gap: 7.5rem;
+        grid-template-rows: 1fr;
+        width: fit-content;
+    }
 }
 
+/* 
+===============
+FOOTER
+===============
+*/
+footer {
+    text-align: center;
+    padding: 1.5rem;
+
+}
 
 
