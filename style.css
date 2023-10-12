@@ -267,15 +267,13 @@ PROJECTS
     }
 }
 
-@media only screen and (max-width:280px) {
+@media only screen and (max-width:349px) {
     .project-img img {
         border-radius: 5%;
         box-shadow: 0 0 2.5px;
         width: 100%;
     }
 }
-
-/* min-width 280, 820, 1024  */
 
 /* 
 ===============
