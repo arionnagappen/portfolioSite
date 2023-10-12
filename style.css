@@ -9,7 +9,7 @@
 
     --sectionTopMargin: 1rem;
 
-    --sectionPadding: 0.6rem;
+    --sectionPadding: 1rem;
 }
 
 /* GLOBAL STYLING */
@@ -148,8 +148,6 @@ HERO
     border-radius: 5%;
 } 
 
-/* 1145px */
-
 @media only screen and (min-width:1145px) {
     .hero {
         display: grid;
@@ -272,7 +270,7 @@ CONTACT ME
 */
 
 .contact {
-    padding: 0.6rem;
+    padding: var(--sectionPadding);
 }
 
 .contact-channel-container {
@@ -310,7 +308,6 @@ FOOTER
 footer {
     text-align: center;
     padding: 1.5rem;
-
 }
 
 
