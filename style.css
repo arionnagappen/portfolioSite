@@ -150,7 +150,7 @@ HERO
 
 /* 1145px */
 
-@media only screen and (min-width:1145) {
+@media only screen and (min-width:1145px) {
     .hero {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -214,5 +214,55 @@ SKILLS
         margin: 2rem auto;
     }
 }
+
+/* 
+===============
+PROJECTS
+===============
+*/
+
+.projects {
+    padding: var(--sectionPadding)
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin-top: 1rem;
+}
+
+.project h4 {
+    margin-bottom: 0.5rem;
+}
+
+.project-img {
+}
+
+.project-img img {
+    border-radius: 5%;
+    box-shadow: 0 0 2.5px;
+}
+
+@media screen and (min-width:1145px) {
+    .projects {
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+
 
 
