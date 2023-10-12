@@ -263,6 +263,29 @@ PROJECTS
     }
 }
 
+/* 
+===============
+CONTACT ME
+===============
+*/
+
+.contact {
+    padding: 0.6rem;
+}
+
+.contact-channel-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media only screen and (min-width:1145px) {
+    .contact {
+        width: 70vw;
+        margin: var(--sectionTopMargin) auto;
+    }
+}
 
 
 
