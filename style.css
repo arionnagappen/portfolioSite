@@ -189,10 +189,6 @@ SKILLS
     height: auto;
 }
 
-.skills-container {
-    
-}
-
 .skill-set {
     margin-top: 1rem;
 
@@ -204,12 +200,20 @@ SKILLS
 
 .skill-set i {
     margin: 1.5rem;
+    font-size: 2rem;
 }
 
 @media only screen and (min-width:1145px) {
     .skills {
         width: 70vw;
         margin: 2rem auto;
+    }
+}
+
+@media only screen and (max-width:280px) {
+    .skill-set {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -262,6 +266,16 @@ PROJECTS
         width: fit-content;
     }
 }
+
+@media only screen and (max-width:280px) {
+    .project-img img {
+        border-radius: 5%;
+        box-shadow: 0 0 2.5px;
+        width: 100%;
+    }
+}
+
+/* min-width 280, 820, 1024  */
 
 /* 
 ===============
